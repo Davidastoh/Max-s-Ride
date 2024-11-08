@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .autos-con-fondo {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+            gap: 20px;
+        }
+        .auto {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .auto img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .detalles-vehiculo {
+            list-style-type: none;
+            padding: 0;
+        }
+        .diseno {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <link rel="icon" href="./Logo concesionario.png" type="image/x-icon">
+    <section id="autos" class="autos-con-fondo">
+        <h2>Autos en Venta</h2>
+        <div class="catalogo">
+            <div class="auto">
+                <h3>Lamborghini Huracán</h3>
+                <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/huracan/2023/model_chooser/huracan_evo_spyder_m.jpg" alt="Auto 1">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> V10 de 5.2 litros, que produce más de 600 caballos de fuerza.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h, en aproximadamente 2.9 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> Alrededor de 325 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Carrocería de fibra de carbono y aluminio, con líneas agresivas y distintivas.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Equipado con un avanzado sistema de tracción en las cuatro ruedas y varias opciones de conducción (Strada, Sport, Corsa).</li>
+                    <li class="descripcion">Es un auto diseñado no solo para la velocidad, sino también para hacer una declaración audaz.</li> 
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>Porsche 911</h3>
+                <img src="https://th.bing.com/th/id/OIP.YYcil-4PFTmdV94TJhULYAHaEo?rs=1&pid=ImgDetMain" alt="Auto 2">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> 6 cilindros bóxer de 3.0 litros con turbocompresor.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 3.5 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 308 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Clásico y elegante, con un interior lujoso y deportivo.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de infoentretenimiento avanzado con pantalla táctil y conectividad a smartphone.</li>
+                    <li class="descripcion">El Porsche 911 es conocido por su rendimiento excepcional y su diseño icónico.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>McLaren 720S</h3>
+                <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/mclaren-720s-1.jpg" alt="Auto 3">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> V8 de 4.0 litros con doble turbo.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 2.8 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 341 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Aerodinámico y ligero, con un chasis de fibra de carbono.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Pantalla táctil de infoentretenimiento y múltiples modos de conducción.</li>
+                    <li class="descripcion">Un superdeportivo que combina velocidad, agilidad y lujo en un solo paquete.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>Lamborghini Aventador</h3>
+                <img src="https://cdn.motor1.com/images/mgl/4JyZA/s1/lamborghini-aventador-lp-780-4-ultimae.jpg" alt="Auto 4">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> V12 de 6.5 litros que produce 730 caballos de fuerza.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 2.9 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 350 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Estilo agresivo con puertas de tijera y un chasis de fibra de carbono.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de tracción integral y un avanzado sistema de infoentretenimiento.</li>
+                    <li class="descripcion">El Lamborghini Aventador es un ícono de la marca, conocido por su diseño y rendimiento extremos.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>Bugatti Chiron</h3>
+                <img src="https://cobaltfortress.com/wp-content/uploads/2019/09/Bugatti-1.jpg" alt="Auto 5">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> W16 de 8.0 litros con cuatro turbocompresores.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 2.4 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 420 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Lujoso y aerodinámico, con un enfoque en la velocidad y el confort.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de infoentretenimiento de alta gama y múltiples sistemas de seguridad.</li>
+                    <li class="descripcion">El Bugatti Chiron es uno de los autos más rápidos y lujosos del mundo.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>Audi R8</h3>
+                <img src="https://resources.carsguide.com.au/2020-Audi-R8-V10-Performance-Quattro-Coupe-blue-1001x565.jpg" alt="Auto 6">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> V10 de 5.2 litros con 610 caballos de fuerza.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 3.2 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 331 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Elegante y deportivo, con un interior de lujo.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de infoentretenimiento MMI y tracción en las cuatro ruedas.</li>
+                    <li class="descripcion">El Audi R8 combina un rendimiento impresionante con la comodidad de un auto de lujo.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>Mercedes-AMG GT</h3>
+                <img src="https://www.gannett-cdn.com/-mm-/0901c2345ab777c6f6c8b4f7af8e8febd11b9b6f/c=0-23-3200-1831/local/-/media/2017/01/11/DetroitFreePress/DetroitFreePress/636196914648739357-Mercedes-Benz-AMG-GT-C-Coupe-Edition-50-36.JPG?width=3200&height=1680&fit=crop" alt="Auto 7">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> V8 biturbo de 4.0 litros con hasta 730 caballos de fuerza.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 3.6 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 318 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Estilo deportivo con un interior de alta calidad y tecnología avanzada.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de infoentretenimiento MBUX y múltiples modos de conducción.</li>
+                    <li class="descripcion">El Mercedes-AMG GT es un auto deportivo que ofrece un equilibrio perfecto entre lujo y rendimiento.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>BMW i8</h3>
+                <img src="https://saudishift.com/wp-content/uploads/2015/06/2015-bmw-i8-hybrid.jpg" alt="Auto 8">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> Híbrido con un motor de 1.5 litros y un motor eléctrico.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 4.4 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 250 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Futurista y aerodinámico, con puertas de ala de gaviota.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de infoentretenimiento avanzado y conectividad a smartphone.</li>
+                    <li class="descripcion">El BMW i8 es un auto deportivo híbrido que combina eficiencia con un rendimiento impresionante.</li>
+                </ul>
+            </div>
+            <div class="auto">
+                <h3>Ferrari 488 GTB</h3>
+                <img src="https://cdn.ferrari.com/cms/network/media/img/resize/5ea6af534668ba0b6c37bbdc-05_ferrari-195_inter_touring_coup_488_gtb_esterni?width=750&height=550" alt="Auto 9">
+                <ul class="detalles-vehiculo">
+                    <li class="diseno"><strong>Motor:</strong> V8 de 3.9 litros con doble turbo, que produce 670 caballos de fuerza.</li>
+                    <li class="diseno"><strong>Aceleración:</strong> 0 a 100 km/h en 3.0 segundos.</li>
+                    <li class="diseno"><strong>Velocidad máxima:</strong> 330 km/h.</li>
+                    <li class="diseno"><strong>Diseño:</strong> Elegante y aerodinámico, con un chasis de aluminio y fibra de carbono.</li>
+                    <li class="diseno"><strong>Tecnología:</strong> Sistema de infoentretenimiento avanzado y múltiples modos de conducción.</li>
+                    <li class="descripcion">El Ferrari 488 GTB es un superdeportivo que combina un rendimiento excepcional con un diseño impresionante.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
